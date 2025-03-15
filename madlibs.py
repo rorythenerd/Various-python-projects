@@ -56,9 +56,9 @@ story_lines = [
 
 #Add the conditional part to the story
 if follow_advice == "yes":
-    story_lines.append(f'I decided to follow the animal\'s advice and embarked on a grand adventure!')
+    story_lines.append("I decided to follow the animal's advice and embarked on a grand adventure!")
 else:
-    story_lines.append(f'I decided not to follow the animal\'s advice and went back home to rest.')
+    story_lines.append("I decided not to follow the animal's advice and went back home to rest.")
 
 #Function to write a line and move the turtle down
 def write_line(text, text_color):
